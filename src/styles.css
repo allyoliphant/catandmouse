@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+
+:root {
+    --primary-font: 'Amatic SC', cursive;
+    --second-font: 'Nanum Gothic Coding', monospace;
+
+    --primary-color: rgb(230, 45, 80);
+    --primary-color-faded: rgb(250, 140, 165);
+    --secondary-color: rgb(235, 255, 235);
+}
+
+body {
+    font-family: var(--second-font);
+    background-color: var(--secondary-color);
+}
